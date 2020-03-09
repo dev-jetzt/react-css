@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+button {
+  font-size: 18pt;
+}
+
+.bordered {
+  border: 1px solid black;
+}
