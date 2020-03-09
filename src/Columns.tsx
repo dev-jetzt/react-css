@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import './Columns.css';
 import { Container, Row, Col } from 'reactstrap';
 
 // https://reactstrap.github.io/components/
 // https://getbootstrap.com/docs/4.0/layout/grid/
 
-class App extends React.Component {
+class Columns extends React.Component {
 
   // the render method
   public render() {
@@ -42,4 +42,4 @@ class App extends React.Component {
 }
 
 
-export default App;
+export default Columns;
