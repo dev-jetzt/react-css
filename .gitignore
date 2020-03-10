@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# app
+*/**/solution
+*/**/99-example
+*/**/99-later
+
 # dependencies
 /node_modules
 /.pnp
