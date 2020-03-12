@@ -12,7 +12,7 @@ class MyComponent extends React.Component<IProps> {
     // return the HTML
     return (
       <span className={this.props.className}>
-        Make this text uppercase
+        {this.props.children}
       </span>
     );
   }
