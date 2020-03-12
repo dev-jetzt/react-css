@@ -1,0 +1,44 @@
+
+/*
+    Exercise 1
+    Use the correct pseudo class to change the background-color to blue if the element gets hovered
+*/
+.exercise-1:hover {
+    background-color: blue;
+}
+
+
+/*
+    Exercise 2
+    Use the :first-child & :last-child pseudo class
+*/
+.exercise-2 > *:first-child, .exercise-2 > *:last-child {
+    background-color: blue;   
+}
+
+
+/*
+    Exercise 3
+    Use the :first-of-type & :last-of-type pseudo class
+*/
+.exercise-3 > p:first-of-type, .exercise-3 > p:last-of-type {
+    background-color: blue;
+}
+
+
+/*
+    Exercise 4
+    Use the :nth-child(n) pseudo class
+*/
+.exercise-4 > *:nth-child(3) {
+    background-color: blue;
+}
+
+
+/*
+    Exercise 5
+    Use the :nth-of-type(n) pseudo class
+*/
+.exercise-5 > p:nth-of-type(1) {
+    background-color: blue;
+}

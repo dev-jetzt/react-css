@@ -1,0 +1,16 @@
+.app {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+/**
+ * Exercise
+ * Change the background-color to red for mobile devices only (don't change the background-color for the desktop devices!)
+ */
+
+ @media (max-width: 540px) {
+     .app {
+        background-color: red;
+    }
+ }

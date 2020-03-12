@@ -1,0 +1,7 @@
+.myUppercaseText {
+    text-transform: uppercase;
+}
+
+.myLowercaseText {
+    text-transform: lowercase;
+}

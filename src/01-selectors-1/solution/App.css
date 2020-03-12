@@ -1,0 +1,6 @@
+#myId { background-color: red; }
+.myClass { background-color: orange; }
+section { background-color: yellow; }
+span p { background-color: green; }
+span > span > p { background-color: blue; }
+

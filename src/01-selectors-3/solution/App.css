@@ -1,0 +1,4 @@
+p, span { background-color: red; display: block; }
+
+p ~ p { background-color: blue; }
+

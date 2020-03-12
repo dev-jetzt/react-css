@@ -1,0 +1,45 @@
+.app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(156, 204, 252);
+}
+
+.app-container {
+    flex: 1;
+    background-color: rgb(156, 252, 164);
+}
+
+.app-content {
+    background-color: rgb(217, 156, 252);
+}
+
+.app-footer {
+    background-color: rgb(252, 162, 156);
+}
+
+.app-navigation {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-menubar {
+    background-image: url('/menubar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}

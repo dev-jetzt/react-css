@@ -1,0 +1,63 @@
+.app-header {
+    height: 60px;
+    min-height: 60px;
+}
+
+.app-navigation {
+    display: flex;
+}
+
+.app-menubar {
+    display: none;
+}
+
+.app-container {
+    padding: 30px;
+}
+
+.app-content {
+    padding: 60px;
+}
+
+.app-footer {
+    height: 60px;
+    min-height: 60px;
+}
+
+/**
+ * Exercise
+ * Create a css styling for mobile devices only (don't change the styling for the desktop devices!)
+ * 1) Header: Reduce the height to 30px
+ * 2) Navigation: Hide the navigation and navigation items
+ * 3) Menubar: Display the menubar
+ * 4) Container: Removed the padding (= 0)
+ * 5) Content: Reduced the padding to 30px
+ * 6) Footer: Hide the footer
+ */
+
+@media (max-width: 540px) {
+    .app-header {
+        height: 30px;
+        min-height: 30px;
+    }
+
+    .app-navigation {
+        display: none;
+    }
+
+    .app-menubar {
+        display: block;
+    }
+
+    .app-container {
+        padding: 0;
+    }
+
+    .app-content {
+        padding: 30px;
+    }
+
+    .app-footer {
+        display: none;
+    }
+}

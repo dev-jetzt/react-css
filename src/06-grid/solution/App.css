@@ -1,0 +1,60 @@
+.app {
+  position: relative;
+}
+
+.row {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.row > [class^="col"] {
+  font-weight: bold;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #E5EDF5;
+  border: 1px solid rgb(145, 145, 145);
+  color: #5F5F5F;
+}
+
+.bg-1 > [class^="col"] {
+  background-color: rgb(156, 204, 252);
+}
+
+.bg-2 > [class^="col"] {
+  background-color: rgb(252, 162, 156);
+}
+
+.bg-3 > [class^="col"] {
+  background-color: rgb(156, 252, 164);
+}
+
+.bg-4 > [class^="col"] {
+  background-color: rgb(217, 156, 252);
+}
+
+.bg-5 > [class^="col"] {
+  background-color: rgb(252, 226, 156);
+}
+
+.app-container {
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.grid .row {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.grid .row > [class^="col"] {
+  opacity: 0.15;
+}
