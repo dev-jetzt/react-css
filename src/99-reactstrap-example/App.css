@@ -1,0 +1,57 @@
+.app {
+  background-color: rgb(66, 191, 245);
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-dialog {
+  width: 440px;;
+}
+
+.app-logo {
+  margin: 20px;
+  height: 34px;
+  width: 34px;
+  background-image: url('/logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dropdown .nav-link {
+  color: rgb(72, 72, 72);
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgb(72, 72, 72);
+}
+
+label {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: normal;
+  color: rgb(72, 72, 72);
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px 22px;
+  line-height: 24px;
+}
+
+.btn-primary {
+  background-color: rgb(255, 90, 95);
+  border-color: rgb(255, 90, 95);
+}

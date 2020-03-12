@@ -1,0 +1,67 @@
+.app-goal {
+  position: absolute;
+  background-color: rgb(252, 162, 156);
+  width: calc(100% / 3);
+  height: 100px;
+  box-sizing: border-box;
+  background-color: rgb(252, 185, 180);
+}
+
+.app-goal-left { 
+  left: 0;
+}
+
+.app-goal-right { 
+  right: 0;
+}
+
+.app-goal-bottom { 
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.app-goal-top { 
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.app-goal-top-left { 
+  left: 0;
+  top: 0;
+}
+
+.app-goal-top-right { 
+  right: 0;
+  top: 0;
+}
+
+.app-goal-bottom-left { 
+  left: 0;
+  bottom: 0;
+}
+
+.app-goal-bottom-right { 
+  right: 0;
+  bottom: 0;
+}
+
+.app-goal-middle { 
+  top: 50%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.app-goal-middle-left { 
+  top: 50%;
+  margin-top: -50px;
+  left: 0;
+}
+
+.app-goal-middle-right { 
+  top: 50%;
+  margin-top: -50px;
+  right: 0;
+}

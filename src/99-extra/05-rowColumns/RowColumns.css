@@ -1,0 +1,25 @@
+.row {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.row > [class^="col"] {
+  font-weight: bold;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #E5EDF5;
+  border: 1px solid rgb(145, 145, 145);
+  color: #5F5F5F;
+}
+
+.bg-1 > [class^="col"] {
+  background-color: rgb(156, 204, 252);
+}
+
+.bg-2 > [class^="col"] {
+  background-color: rgb(252, 162, 156);
+}
+
+.bg-3 > [class^="col"] {
+  background-color: rgb(156, 252, 164);
+}

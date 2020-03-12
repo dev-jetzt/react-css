@@ -1,0 +1,10 @@
+.app-box {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  margin: 3rem auto;
+  margin-top: 0;
+  height: 300px;
+  background-color: rgb(229, 237, 245);
+  border: 1px solid rgb(252, 253, 255);
+}

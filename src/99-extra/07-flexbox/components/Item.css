@@ -1,0 +1,9 @@
+.app-item {
+  background-color: rgb(156, 252, 164);
+  width: calc(100% / 3);
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid rgb(157, 241, 164);
+  position: relative;
+  z-index: 1;
+}
